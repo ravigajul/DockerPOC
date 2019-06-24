@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53040" started-at="2019-06-24T11:02:04Z" finished-at="2019-06-24T11:02:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53040" started-at="2019-06-24T11:02:04Z" finished-at="2019-06-24T11:02:57Z">
+      <class name="com.test.DockerPOC.ChromeTest">
+        <test-method status="PASS" signature="RunDockerBatchFiles()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="RunDockerBatchFiles" is-config="true" duration-ms="27037" started-at="2019-06-24T11:02:04Z" finished-at="2019-06-24T11:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunDockerBatchFiles -->
+        <test-method status="PASS" signature="ChromeTest2()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="ChromeTest2" duration-ms="8423" started-at="2019-06-24T11:02:31Z" finished-at="2019-06-24T11:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeTest2 -->
+        <test-method status="PASS" signature="ChromeTest3()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="ChromeTest3" duration-ms="17108" started-at="2019-06-24T11:02:31Z" finished-at="2019-06-24T11:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeTest3 -->
+        <test-method status="PASS" signature="ChromeTest1()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="ChromeTest1" duration-ms="6673" started-at="2019-06-24T11:02:31Z" finished-at="2019-06-24T11:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeTest1 -->
+        <test-method status="PASS" signature="StopDocker()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="StopDocker" is-config="true" duration-ms="8859" started-at="2019-06-24T11:02:48Z" finished-at="2019-06-24T11:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDocker -->
+      </class> <!-- com.test.DockerPOC.ChromeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
