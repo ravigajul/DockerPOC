@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53221" started-at="2019-06-24T11:00:02Z" finished-at="2019-06-24T11:00:55Z">
+  <suite name="Suite" duration-ms="59973" started-at="2019-06-24T14:47:20Z" finished-at="2019-06-24T14:48:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="53221" started-at="2019-06-24T11:00:02Z" finished-at="2019-06-24T11:00:55Z">
+    <test name="Test" duration-ms="59973" started-at="2019-06-24T14:47:20Z" finished-at="2019-06-24T14:48:20Z">
       <class name="com.test.DockerPOC.ChromeTest">
-        <test-method status="PASS" signature="RunDockerBatchFiles()[pri:0, instance:com.test.DockerPOC.ChromeTest@4c70fda8]" name="RunDockerBatchFiles" is-config="true" duration-ms="29454" started-at="2019-06-24T11:00:02Z" finished-at="2019-06-24T11:00:32Z">
+        <test-method status="PASS" signature="RunDockerBatchFiles()[pri:0, instance:com.test.DockerPOC.ChromeTest@4c70fda8]" name="RunDockerBatchFiles" is-config="true" duration-ms="28881" started-at="2019-06-24T14:47:20Z" finished-at="2019-06-24T14:47:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RunDockerBatchFiles -->
-        <test-method status="PASS" signature="ChromeTest2()[pri:0, instance:com.test.DockerPOC.ChromeTest@4c70fda8]" name="ChromeTest2" duration-ms="7511" started-at="2019-06-24T11:00:32Z" finished-at="2019-06-24T11:00:39Z">
+        <test-method status="PASS" signature="ChromeTest2()[pri:0, instance:com.test.DockerPOC.ChromeTest@4c70fda8]" name="ChromeTest2" duration-ms="11010" started-at="2019-06-24T14:47:49Z" finished-at="2019-06-24T14:48:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeTest2 -->
-        <test-method status="PASS" signature="ChromeTest1()[pri:0, instance:com.test.DockerPOC.ChromeTest@4c70fda8]" name="ChromeTest1" duration-ms="5497" started-at="2019-06-24T11:00:32Z" finished-at="2019-06-24T11:00:37Z">
+        <test-method status="PASS" signature="ChromeTest1()[pri:0, instance:com.test.DockerPOC.ChromeTest@4c70fda8]" name="ChromeTest1" duration-ms="8538" started-at="2019-06-24T14:47:49Z" finished-at="2019-06-24T14:47:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeTest1 -->
-        <test-method status="PASS" signature="ChromeTest3()[pri:0, instance:com.test.DockerPOC.ChromeTest@4c70fda8]" name="ChromeTest3" duration-ms="17350" started-at="2019-06-24T11:00:32Z" finished-at="2019-06-24T11:00:49Z">
+        <test-method status="PASS" signature="ChromeTest3()[pri:0, instance:com.test.DockerPOC.ChromeTest@4c70fda8]" name="ChromeTest3" duration-ms="21276" started-at="2019-06-24T14:47:49Z" finished-at="2019-06-24T14:48:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeTest3 -->
-        <test-method status="PASS" signature="StopDocker()[pri:0, instance:com.test.DockerPOC.ChromeTest@4c70fda8]" name="StopDocker" is-config="true" duration-ms="6369" started-at="2019-06-24T11:00:49Z" finished-at="2019-06-24T11:00:55Z">
+        <test-method status="PASS" signature="StopDocker()[pri:0, instance:com.test.DockerPOC.ChromeTest@4c70fda8]" name="StopDocker" is-config="true" duration-ms="9549" started-at="2019-06-24T14:48:10Z" finished-at="2019-06-24T14:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDocker -->

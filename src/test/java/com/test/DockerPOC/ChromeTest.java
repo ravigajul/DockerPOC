@@ -19,20 +19,19 @@ public class ChromeTest {
 	URL remoteAddress;
 	DesiredCapabilities capabilities;
 	String fileName;
-	
+
 	@BeforeTest
 	public void RunDockerBatchFiles() throws IOException, InterruptedException {
-		fileName =System.getProperty("user.dir")+ "\\docker-compose.log";
-		File fi=new File(fileName);
-		if(!fi.exists())
-		{
+		fileName = System.getProperty("user.dir") + "\\docker-compose.log";
+		File fi = new File(fileName);
+		if (!fi.exists()) {
 			fi.createNewFile();
 		}
 		FileReader file = new FileReader(fileName);
 		Runtime runtime = Runtime.getRuntime();
 		runtime.exec("cmd /c start " + System.getProperty("user.dir") + "\\DockerUp.bat");
 		Thread.sleep(3000);
-		String fileName = System.getProperty("user.dir")+"\\docker-compose.log";
+		String fileName = System.getProperty("user.dir") + "\\docker-compose.log";
 		boolean flag = false;
 		Calendar calender = Calendar.getInstance();
 		calender.add(Calendar.SECOND, 30);
@@ -45,7 +44,7 @@ public class ChromeTest {
 				break;
 			}
 		}
-		// reader.close(); 
+		// reader.close();
 		file.close();
 
 		if (flag) {
@@ -59,7 +58,7 @@ public class ChromeTest {
 		Runtime runtime = Runtime.getRuntime();
 		runtime.exec("cmd /c start " + System.getProperty("user.dir") + "\\DockerDown.bat");
 		Thread.sleep(3000);
-		String fileName =System.getProperty("user.dir")+ "\\docker-compose.log";
+		String fileName = System.getProperty("user.dir") + "\\docker-compose.log";
 		FileReader file = new FileReader(fileName);
 		Calendar calender = Calendar.getInstance();
 		calender.add(Calendar.SECOND, 30);
@@ -67,19 +66,19 @@ public class ChromeTest {
 		while (System.currentTimeMillis() <= stopTime) {
 			if (FileHelper.IsRegistrationComplete(file, "selenium-hub exited with code")) {
 				System.out.println("DockerShutdown");
-				File fi= new File(fileName);
-				if(fi.isFile()) {
+				File fi = new File(fileName);
+				if (fi.isFile()) {
 					fi.deleteOnExit();
 					System.out.println("File Deleted Successfully");
 				}
 				break;
 			}
 		}
-		
-		// reader.close(); 
+
+		// reader.close();
 		file.close();
 	}
-	
+
 	@Test
 	public void ChromeTest1() throws MalformedURLException {
 		URL remoteAddress = new URL("http://localhost:4444/wd/hub");
@@ -111,14 +110,14 @@ public class ChromeTest {
 		System.out.println(driver.getTitle());
 	}
 
-	/*
-	 * @Test public void FireFoxTest1() throws MalformedURLException { URL
-	 * remoteAddress = new URL("http://localhost:4444/wd/hub"); FirefoxOptions
-	 * capabilities = new FirefoxOptions(); RemoteWebDriver driver = new
-	 * RemoteWebDriver(remoteAddress, capabilities);
-	 * driver.get("http://google.com"); System.out.println(driver.getTitle());
-	 * 
-	 * }
-	 */
-	
+	@Test
+	public void FireFoxTest1() throws MalformedURLException {
+		URL remoteAddress = new URL("http://localhost:4444/wd/hub");
+		FirefoxOptions capabilities = new FirefoxOptions();
+		RemoteWebDriver driver = new RemoteWebDriver(remoteAddress, capabilities);
+		driver.get("http://google.com");
+		System.out.println(driver.getTitle());
+
+	}
+
 }
