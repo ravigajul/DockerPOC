@@ -1,4 +1,37 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 74.721 s - in TestSuite
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 39.445 s <<< FAILURE! - in TestSuite
+ChromeTest2(com.test.DockerPOC.ChromeTest)  Time elapsed: 4.353 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Command duration or timeout: 2.34 seconds
+	at com.test.DockerPOC.ChromeTest.ChromeTest2(ChromeTest.java:98)
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USHYDRGAJUL5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+
+ChromeTest3(com.test.DockerPOC.ChromeTest)  Time elapsed: 4.357 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Command duration or timeout: 2.30 seconds
+	at com.test.DockerPOC.ChromeTest.ChromeTest3(ChromeTest.java:108)
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USHYDRGAJUL5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+
+ChromeTest1(com.test.DockerPOC.ChromeTest)  Time elapsed: 4.357 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Command duration or timeout: 2.30 seconds
+	at com.test.DockerPOC.ChromeTest.ChromeTest1(ChromeTest.java:87)
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USHYDRGAJUL5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="74.721" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="39.445" tests="3" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\rgajul\AppData\Local\Temp\surefire7911536250441976067\surefirebooter7690262245480706873.jar C:\Users\rgajul\AppData\Local\Temp\surefire7911536250441976067 2019-06-25T18-19-02_969-jvmRun1 surefire6067301793204318311tmp surefire_06961915889991114497tmp"/>
+    <property name="sun.java.command" value="C:\Users\rgajul\AppData\Local\Temp\surefire8239401235171081279\surefirebooter6925593774817413829.jar C:\Users\rgajul\AppData\Local\Temp\surefire8239401235171081279 2019-06-25T18-27-43_747-jvmRun1 surefire5074117783604627980tmp surefire_01032878865214137427tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\rgajul\eclipse-workspace\DockerPOC\target\test-classes;C:\Users\rgajul\eclipse-workspace\DockerPOC\target\classes;C:\Users\rgajul\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\rgajul\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rgajul\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rgajul\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rgajul\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rgajul\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rgajul\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rgajul\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rgajul\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rgajul\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rgajul\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rgajul\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rgajul\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rgajul\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rgajul\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rgajul\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rgajul\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rgajul\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rgajul\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rgajul\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rgajul\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rgajul\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\rgajul\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\rgajul\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\rgajul"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\rgajul\AppData\Local\Temp\surefire7911536250441976067\surefirebooter7690262245480706873.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rgajul\AppData\Local\Temp\surefire8239401235171081279\surefirebooter6925593774817413829.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,7 +60,42 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="ChromeTest1" classname="com.test.DockerPOC.ChromeTest" time="9.113"/>
-  <testcase name="ChromeTest2" classname="com.test.DockerPOC.ChromeTest" time="11.379"/>
-  <testcase name="ChromeTest3" classname="com.test.DockerPOC.ChromeTest" time="21.892"/>
+  <testcase name="ChromeTest2" classname="com.test.DockerPOC.ChromeTest" time="4.353">
+    <failure message="Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}&#10;Command duration or timeout: 2.34 seconds" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Command duration or timeout: 2.34 seconds
+	at com.test.DockerPOC.ChromeTest.ChromeTest2(ChromeTest.java:98)
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USHYDRGAJUL5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+</failure>
+    <system-out><![CDATA[Node registration is complete
+]]></system-out>
+  </testcase>
+  <testcase name="ChromeTest3" classname="com.test.DockerPOC.ChromeTest" time="4.357">
+    <failure message="Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}&#10;Command duration or timeout: 2.30 seconds" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Command duration or timeout: 2.30 seconds
+	at com.test.DockerPOC.ChromeTest.ChromeTest3(ChromeTest.java:108)
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USHYDRGAJUL5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+</failure>
+  </testcase>
+  <testcase name="ChromeTest1" classname="com.test.DockerPOC.ChromeTest" time="4.357">
+    <failure message="Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}&#10;Command duration or timeout: 2.30 seconds" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Command duration or timeout: 2.30 seconds
+	at com.test.DockerPOC.ChromeTest.ChromeTest1(ChromeTest.java:87)
+Caused by: org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USHYDRGAJUL5', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+</failure>
+  </testcase>
 </testsuite>

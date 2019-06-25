@@ -7,7 +7,6 @@
         <methods>
           <include name="RunDockerBatchFiles"/>
           <include name="ChromeTest2"/>
-          <include name="FireFoxTest1"/>
           <include name="StopDocker"/>
           <include name="ChromeTest1"/>
           <include name="ChromeTest3"/>
