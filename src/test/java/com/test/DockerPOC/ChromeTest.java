@@ -106,7 +106,7 @@ public class ChromeTest {
 		URL remoteAddress = new URL("http://localhost:4444/wd/hub");
 		ChromeOptions capabilities = new ChromeOptions();
 		RemoteWebDriver driver = new RemoteWebDriver(remoteAddress, capabilities);
-		driver.get("http://yahoo.com");
+		driver.get("http://google.com");
 		System.out.println(driver.getTitle());
 	}
 
