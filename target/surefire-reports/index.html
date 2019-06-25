@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,6 +113,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.DockerPOC.ChromeTest" hash-for-method="ChromeTest3">ChromeTest3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.DockerPOC.ChromeTest" hash-for-method="FireFoxTest1">FireFoxTest1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -152,6 +157,13 @@
                   <a name="ChromeTest3">
                   </a> <!-- ChromeTest3 -->
                   <span class="method-name">ChromeTest3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FireFoxTest1">
+                  </a> <!-- FireFoxTest1 -->
+                  <span class="method-name">FireFoxTest1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -208,24 +220,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ChromeTest3')
 data.setCell(0, 2, 'com.test.DockerPOC.ChromeTest')
-data.setCell(0, 3, 17108);
+data.setCell(0, 3, 91895);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ChromeTest2')
+data.setCell(1, 1, 'FireFoxTest1')
 data.setCell(1, 2, 'com.test.DockerPOC.ChromeTest')
-data.setCell(1, 3, 8423);
+data.setCell(1, 3, 49008);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ChromeTest1')
+data.setCell(2, 1, 'ChromeTest2')
 data.setCell(2, 2, 'com.test.DockerPOC.ChromeTest')
-data.setCell(2, 3, 6673);
+data.setCell(2, 3, 26055);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ChromeTest1')
+data.setCell(3, 2, 'com.test.DockerPOC.ChromeTest')
+data.setCell(3, 3, 22222);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -258,19 +274,23 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">ChromeTest1</span>
-                <span class="method-start">27070 ms</span>
+                <span class="method-start">33453 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ChromeTest3</span>
-                <span class="method-start">27070 ms</span>
+                <span class="method-start">33454 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ChromeTest2</span>
-                <span class="method-start">27070 ms</span>
+                <span class="method-start">33454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FireFoxTest1</span>
+                <span class="method-start">33454 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">StopDocker</span>
-                <span class="method-start">44180 ms</span>
+                <span class="method-start">125351 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
