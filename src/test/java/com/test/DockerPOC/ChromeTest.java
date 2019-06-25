@@ -85,7 +85,7 @@ public class ChromeTest {
 		ChromeOptions capabilities = new ChromeOptions();
 
 		RemoteWebDriver driver = new RemoteWebDriver(remoteAddress, capabilities);
-		driver.get("http://google.com");
+		driver.get("http://yahoo.com");
 		System.out.println(driver.getTitle());
 
 	}
@@ -106,16 +106,20 @@ public class ChromeTest {
 		URL remoteAddress = new URL("http://localhost:4444/wd/hub");
 		ChromeOptions capabilities = new ChromeOptions();
 		RemoteWebDriver driver = new RemoteWebDriver(remoteAddress, capabilities);
-		driver.get("http://yahoo.com");
+		driver.get("http://google.com");
 		System.out.println(driver.getTitle());
 	}
-	/*
-	 * @Test public void FireFoxTest1() throws MalformedURLException { URL
-	 * remoteAddress = new URL("http://localhost:4444/wd/hub"); FirefoxOptions
-	 * capabilities = new FirefoxOptions(); RemoteWebDriver driver = new
-	 * RemoteWebDriver(remoteAddress, capabilities);
-	 * driver.get("http://google.com"); System.out.println(driver.getTitle()); }
-	 * 
-	 */
+	
+/*
+	@Test
+	public void FireFoxTest1() throws MalformedURLException {
+		URL remoteAddress = new URL("http://localhost:4444/wd/hub");
+		FirefoxOptions capabilities = new FirefoxOptions();
+		RemoteWebDriver driver = new RemoteWebDriver(remoteAddress, capabilities);
+		driver.get("http://google.com");
+		System.out.println(driver.getTitle());
+			}
+*/
 
 }
+
