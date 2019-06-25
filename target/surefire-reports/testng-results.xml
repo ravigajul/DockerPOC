@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="158625" started-at="2019-06-25T11:45:12Z" finished-at="2019-06-25T11:47:51Z">
+  <suite name="Suite" duration-ms="73395" started-at="2019-06-25T12:49:05Z" finished-at="2019-06-25T12:50:19Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="158625" started-at="2019-06-25T11:45:12Z" finished-at="2019-06-25T11:47:51Z">
+    <test name="Test" duration-ms="73395" started-at="2019-06-25T12:49:05Z" finished-at="2019-06-25T12:50:19Z">
       <class name="com.test.DockerPOC.ChromeTest">
-        <test-method status="PASS" signature="RunDockerBatchFiles()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="RunDockerBatchFiles" is-config="true" duration-ms="33391" started-at="2019-06-25T11:45:12Z" finished-at="2019-06-25T11:45:45Z">
+        <test-method status="PASS" signature="RunDockerBatchFiles()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="RunDockerBatchFiles" is-config="true" duration-ms="39490" started-at="2019-06-25T12:49:05Z" finished-at="2019-06-25T12:49:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RunDockerBatchFiles -->
-        <test-method status="PASS" signature="ChromeTest1()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="ChromeTest1" duration-ms="22222" started-at="2019-06-25T11:45:45Z" finished-at="2019-06-25T11:46:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ChromeTest1 -->
-        <test-method status="PASS" signature="ChromeTest3()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="ChromeTest3" duration-ms="91895" started-at="2019-06-25T11:45:45Z" finished-at="2019-06-25T11:47:17Z">
+        <test-method status="PASS" signature="ChromeTest3()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="ChromeTest3" duration-ms="21892" started-at="2019-06-25T12:49:45Z" finished-at="2019-06-25T12:50:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeTest3 -->
-        <test-method status="PASS" signature="FireFoxTest1()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="FireFoxTest1" duration-ms="49008" started-at="2019-06-25T11:45:45Z" finished-at="2019-06-25T11:46:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FireFoxTest1 -->
-        <test-method status="PASS" signature="ChromeTest2()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="ChromeTest2" duration-ms="26055" started-at="2019-06-25T11:45:45Z" finished-at="2019-06-25T11:46:11Z">
+        <test-method status="PASS" signature="ChromeTest2()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="ChromeTest2" duration-ms="11380" started-at="2019-06-25T12:49:45Z" finished-at="2019-06-25T12:49:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChromeTest2 -->
-        <test-method status="PASS" signature="StopDocker()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="StopDocker" is-config="true" duration-ms="33272" started-at="2019-06-25T11:47:17Z" finished-at="2019-06-25T11:47:51Z">
+        <test-method status="PASS" signature="ChromeTest1()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="ChromeTest1" duration-ms="9109" started-at="2019-06-25T12:49:45Z" finished-at="2019-06-25T12:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeTest1 -->
+        <test-method status="PASS" signature="StopDocker()[pri:0, instance:com.test.DockerPOC.ChromeTest@26ba2a48]" name="StopDocker" is-config="true" duration-ms="11949" started-at="2019-06-25T12:50:07Z" finished-at="2019-06-25T12:50:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDocker -->
